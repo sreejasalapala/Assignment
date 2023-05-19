@@ -1,0 +1,68 @@
+body {
+    font-family: sans-serif;
+  }
+  .columns {
+    margin: 0 auto;
+    background: #d3d3d3;
+    width: 800px;
+    padding: 20px;
+  }
+  .card {
+    width: 32%;
+    display: inline-block;
+    margin-right: 1.2%;
+    height: 120px;
+    font-size: 50px;
+    background: #ff1493;
+    border: 3px solid #ff1493;
+    box-sizing: border-box;
+    color: #fff;
+    line-height: 120px;
+    vertical-align: middle;
+    text-align: center;
+  }
+  .card:last-child {
+    margin-right: 0;
+  }
+  .card:nth-child(2) {
+    background: #1e90ff;
+    border-color: #1e90ff;
+  }
+  .card:nth-child(3) {
+    background: #00ced1;
+    border-color: #00ced1;
+  }
+  #fourth {
+    background: #8738ab;
+    border-color: #8738ab;
+  }
+  #fifth {
+    background: #c3900e;
+    border-color: #c3900e;
+  }
+  #sixth{
+    background: #a56166;
+    border-color: #a56166;
+  }
+ #seventh {
+    background: #4f524f;
+    border-color: #4f524f;
+  }
+  #eight{
+    background: #c1d80c;
+    border-color: #c1d80c;
+  }
+  #nine {
+    background: #cba8bd;
+    border-color: #cba8bd;
+  }
+  .card.dragging {
+    opacity: 0.5;
+  }
+  .card.over {
+    border: 3px dashed #000;
+  }
+  [draggable] {
+    user-select: none;
+  }
+  
